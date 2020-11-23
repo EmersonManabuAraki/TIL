@@ -12,7 +12,7 @@ producing [{},{}] multiple hashes inside a top level json array.
 It is very important that the hash is [{}] NOT {} as not having the array on the 
 outside will cause the hash to replace the contents instead of appending to them.
 
-```
+```ruby
 new_option = [{
   name: option_name,
   time: Time.now.iso8601
