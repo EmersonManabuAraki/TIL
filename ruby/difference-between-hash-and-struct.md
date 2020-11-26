@@ -19,7 +19,7 @@ person.tel # => NameError: undefined method 'tel'
 person.sex = "man" # => NameError: undefined method 'sex='
 ```
 
-2: Equal value is different
+2: Equavalent value is different
 
 Structures are no equivalent as Hash, even if they have exactly the same content.
 
