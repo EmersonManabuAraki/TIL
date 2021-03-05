@@ -25,7 +25,7 @@ Character
   .or(Character.where(gender: :male))
 ```
 
-It will cause the next error:
+This will cause the next error:
 
 ```
 ArgumentError: Relation passed to #or must be structurally compatible. Imcompatible values: [:joins]
